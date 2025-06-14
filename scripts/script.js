@@ -56,4 +56,6 @@ function calc(){
     }
 }
 
-   
+   document.addEventListener('dblclick',function(e){
+e.preventDefault();
+}
